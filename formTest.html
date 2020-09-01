@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+    </head>
+    <style>
+    .fieldSet{
+        width: 40%;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .span{
+        color:red;
+    }
+    </style>
+<body >
+
+<form action="index.html">
+    <fieldset  class="fieldSet">
+  <fieldset>
+    <legend>login:</legend>
+     <div>
+    <label>UserEmail <span  class="span">*</span></label>
+    <input type="email" name="Email" value="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+</div>
+<div style="margin-top: 20px;">
+    <label>Password <span class="span" >*</span></label>
+    <input type="password" name="password" value="" >
+</div>
+</fieldset>
+ <br>
+    <button type="submit" value="Submit">OK</button> 
+    <button type="reset" value="Reset">cancel</button>
+  </fieldset>
+</form>
+<script>
+
+</script>
+</body>
+</html>

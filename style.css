@@ -1,0 +1,168 @@
+#container {
+  display: flex;
+
+
+}
+
+
+#quizContainer {
+  border: 2px solid;
+  padding: 20px;
+  width: 75%;
+  /* height: 100%; */
+}
+
+.btnDiv {
+  text-align: center;
+}
+
+.btn {
+
+  text-align: center;
+}
+.none{
+  display: none;
+}
+
+#next {
+  border-radius: 5px;
+  font: inherit;
+}
+
+#next:hover {
+
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+
+.active {
+  display: none;
+}
+
+#prev {
+  border-radius: 5px;
+  font: inherit;
+}
+
+#prev:hover {
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+
+#flag {
+  border-radius: 5px;
+  font: inherit;
+}
+
+#flag:hover {
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+
+.noQue {
+
+  border-radius: 10px;
+
+}
+
+.noQue:hover {
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+
+
+.question:hover {
+  cursor: pointer;
+}
+
+.answer:hover {
+  cursor: pointer;
+}
+
+.title {
+  color: teal;
+}
+
+.answer {
+  font-weight: 200;
+}
+
+.question {
+  font-weight: bold;
+}
+
+#quizLegend {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+#quizFieldset {
+  text-align: center;
+
+}
+
+/* /////// */
+#flagConainer {
+  border: 2px solid;
+  padding: 20px;
+  width: 15%;
+
+}
+
+/* #flagFieldset {
+  text-align: center;
+
+} */
+#flagLegend {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.flagNo {
+  border-radius: 50%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 10%;
+}
+
+.flagNo:hover {
+  cursor: pointer;
+}
+
+/* #flagNo5 {
+  background-color: teal;
+
+
+} */
+
+.flagNoContaioner {
+  text-align: -webkit-center;
+}
+
+/* ///////////////////////// */
+#submit {
+  border-radius: 5px;
+  font: inherit;
+  /* padding: .5rem; */
+  width: 12rem;
+
+}
+
+.submitDiv {
+
+  text-align: center;
+ 
+}
+
+#submit:hover {
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}

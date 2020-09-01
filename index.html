@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="quizContainer">
+
+            <form class="quizform">
+                <fieldset id="quizFieldset">
+                    <legend id="quizLegend">Quiz</legend>
+                    <h2 class="title"> Choose The Correct Answer </h2>
+                    <div class="question"><br> </div>
+                    <input class="answer" type="radio" id="ans-0" name="choices"><label id="ch-0"></label><br>
+                    <input class="answer" type="radio" id="ans-1" name="choices"><label id="ch-1"></label><br>
+                    <input class="answer" type="radio" id="ans-2" name="choices"><label id="ch-2"></label><br>
+                    <input class="answer" type="radio" id="ans-3" name="choices"><label id="ch-3"></label><br>
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </fieldset>
+                <br>
+                <br>
+
+            </form>
+            <div class="btnDiv">
+                <button value="submit" class="btn" id="prev">Persvious</button>
+                <button value="submit" class="noQue" id="q-0">1</button>
+                <button value="submit" class="noQue" id="q-1">2</button>
+                <button value="submit" class="noQue" id="q-2">3</button>
+                <button value="submit" class="noQue" id="q-3">4</button>
+                <button value="submit" class="noQue" id="q-4">5</button>
+                <!-- <button value="submit" class="noQue none" id="q-5">6</button>
+                <button value="submit" class="noQue none" id="q-6">7</button>
+                <button value="submit" class="noQue none" id="q-7">8</button>
+                <button value="submit" class="noQue none" id="q-8">9</button>
+                <button value="submit" class="noQue none" id="q-9">10</button> -->
+
+                <button value="submit" class="btn" id="next">Next</button>
+            </div>
+            <br>
+            <br>
+            <div class="btnDiv">
+                <button value="submit" class="btn" id="flag">Flag</button>
+            </div>
+            <br>
+            <!-- <div class="submitDiv">
+                <input id="submit" type="submit" value="SUBMIT">
+            </div> -->
+        </div>
+        <div id="flagConainer">
+            <fieldset id="flagfieldset">
+                <legend id="flagLegend">Unanswerd Question</legend>
+                <div class="flagNoContaioner">
+                    <div id="flagNo-0" class="flagNo">1</div>
+                    <div id="flagNo-1" class="flagNo">2 </div>
+                    <!-- </div> -->
+                    <!-- <div class="flagNoContaioner"> -->
+                    <div id="flagNo-2" class="flagNo">3</div>
+                    <div id="flagNo-3" class="flagNo">4 </div>
+                    <!-- </div> -->
+                    <!-- <div class="flagNoContaioner"> -->
+                    <div id="flagNo-4" class="flagNo">5</div>
+                    <!-- <div id="flagNo6" class="flagNo">6 </div>
+                </div>
+                <div class="flagNoContaioner">
+                    <div id="flagNo7" class="flagNo">7</div>
+                    <div id="flagNo8" class="flagNo">8 </div>
+                </div>
+                <div class="flagNoContaioner">
+                    <div id="flagNo9" class="flagNo">9</div>
+                    <div id="flagNo10" class="flagNo">10 </div>
+                </div> -->
+                </div>
+            </fieldset>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
